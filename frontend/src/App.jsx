@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const API = '/api/todos'
+const API = 'http://localhost:4000/api/todos'
 
 export default function App () {
   const [todos, setTodos] = useState([])
