@@ -30,10 +30,9 @@ npm run dev
 - Dev server proxies `/api/*` to `http://localhost:4000`
 
 ## API
-- `GET /api/todos` — list
-- `POST /api/todos` — body: `{ title: string }`
-- `PATCH /api/todos/:id` — body: `{ title?: string, completed?: boolean }`
-- `DELETE /api/todos/:id`
+- `GET /api/movies` — list
+- `POST /api/upcomingmovies` — body: `{ title: string }`
+- `PATCH /api/book/:id` — body: `{ title?: string, completed?: boolean }`
 
 ## Configuration
 - `backend/.env`

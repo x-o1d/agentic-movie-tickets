@@ -5,6 +5,8 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { initDb } from './db.js'
 import todosRouter from './routes/todos.js'
+import imagesRouter from './routes/images.js'
+import images2Router from './routes/images2.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -24,6 +26,8 @@ app.get('/health', (req, res) => {
 
 // API routes
 app.use('/api/todos', todosRouter)
+app.use('/api/images', imagesRouter)
+app.use('/api/images2', images2Router)
 
 // 404
 app.use((req, res) => {
