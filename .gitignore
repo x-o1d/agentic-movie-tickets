@@ -1,0 +1,29 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+**/dist/
+**/build/
+
+# Env
+.env
+**/.env
+**/.env.local
+
+# SQLite DB files
+**/data/*.db
+**/data/*.db-journal
+**/data/*.sqlite
+**/data/*.sqlite-journal
+
+# Editor
+.vscode/
+.DS_Store
+.idea/
